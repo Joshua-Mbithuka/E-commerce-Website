@@ -1,0 +1,29 @@
+form
+		{
+			width: 50%;
+			margin-left:20%;
+			margin-left:20%;
+			margin-top: 10%;
+			margin-bottom: 20%;
+			padding:15px;
+			
+			background-color:silver;
+		}
+.tableform h1
+			{
+					background-color: #43D1AF;
+					padding:20px ;
+					font-size: 20px;
+					font-weight:300; 
+					text-align:center;
+					width:400px;
+					color: #fff;
+					
+
+			}
+body
+			{
+				background-image: url("lib.jpg");
+				background-size: cover;
+				
+			}

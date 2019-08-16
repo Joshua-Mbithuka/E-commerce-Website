@@ -1,0 +1,53 @@
+
+.header
+		{
+			background: #5fee;
+			height: 80px;
+			margin-top:-6%;
+
+		}
+.header ul
+			{
+				list-style-type: none;
+				padding: 0px;
+				margin: 0px;
+				width: 40%;
+				padding-top: 10px;
+				padding-bottom:0px; 
+			}
+.header ul li
+			{
+				text-align: center;
+				float: left;
+				line-height: 50px;
+				border: 2px solid #0000;
+				text-decoration: none;
+				
+
+			}
+.header ul li a
+				{
+					text-decoration: none;
+					cursor: pointer;
+					text-transform: capitalize;
+					padding: 10px;
+					color: black;
+					text-align: center;
+
+				}
+footer
+		{
+			background: #5fee;
+			color: black;
+			height: 30%;
+		}
+.tableform
+			{
+				width: 200px;
+				padding: 10px;
+			}
+.tableform table
+			{
+				width: 150px;
+			}
+ 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width",initial-scale=1>
+	<meta charset="utf-8">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	 <title>library management system</title>
+	 <link rel="stylesheet" type="text/css" href="css/index.css">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<center><div class="header">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a href="user.html">Userlog in</a></li>
+			<li><a href="php/admin.php">Admin</a></li>	  
+		</ul></div></center>
+	</div>
+	<form action="php/user.php" class="needs-validation" novalidate="True">
+		<div class="form-group">
+			<h1>LOG IN</h1>
+			<label for="Username">username</label>
+			<input type="Email" id="Username" class="form-control" required="True" placeholder="enter a valid username"><br><br>
+			<label for="password">password</label>
+			<input type="password" class="form-control" id="password" placeholder="enter password" required="True" minlength=8>
+			<small class=" form-text text-muted"> your password must contain special characters must also have a min lenght of 8 characters</small>
+		</div>
+		<div class="form-group">
+			<label class="form-check-label"><input type="checkbox">Remember me</label>
+		</div>
+		<button class="submit" class="btn btn-primary">sign in</button>
+	</form>
+	<footer class="page-footer font-small blue">
+	<div class="footer-copyright text-center py-3">© 2019 Copyright: bramtechs.com
+  </div>
+</footer>
+</body>
+</html>

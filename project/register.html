@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width",initial-scale=1>
+	<meta charset="utf-8">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	 <title>library management system</title>
+	 <link rel="stylesheet" type="text/css" href="css/index.css">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<center><div class="header">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a href="user.html">Userlog in</a></li>
+			<li><a href="php/admin.php">Admin</a></li>	  
+		</ul>
+	</div></center>
+	<form action="php/redirect.php" method="post" class="needs-validation" name="regform" onclick="return check()">
+		<div class="form-group">
+			<h1>Register</h1>
+			<label for="Email">username</label>
+			<input type="Email" id="Email" name="Email" class="form-control" placeholder="email" required="True"><br><br>
+			<label for="password">password</label>
+			<input type="password" class="form-control" id="password" name="password" placeholder="enter password" required="True" minlength=8>
+			<small class=" form-text text-muted"> your password must contain special characters must also have a min lenght of 8 characters</small>
+			<label for="cpassword">confirm password</label>
+			<input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="reenter password" required="True">
+		</div>
+		<div class="form-group">
+			<label class="form-check-label"><input type="checkbox">Remember me</label>
+		</div>
+		<button class="submit" class="btn btn-primary" style="align:center;border: 2px solid black;border-radius:10px 10px 10px 10px;">register</button>
+		<div class="log"><a href="user.html">already have an account</a></div>
+	</form>
+	<footer class="page-footer font-small blue">
+	<div class="footer-copyright text-center py-3">© 2019 Copyright: bramtechs.com
+  </div>
+</footer>
+	<footer class="page-footer font-small blue">
+	<div class="footer-copyright text-center py-3">© 2019 Copyright: bramtechs.com
+  </div>
+</footer>
+
+</body>
+</html>
